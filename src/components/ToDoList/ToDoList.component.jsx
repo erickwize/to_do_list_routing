@@ -21,7 +21,7 @@ function ToDoList() {
         {todos.map(todo => (
           <Styled.Element key={todo}>
             <Styled.CheckBox type="checkbox"/>
-            <Styled.Link to={`${path}${encodeURI(todo)}`}><Styled.Label>{todo}</Styled.Label></Styled.Link>
+            <Styled.Link href={`${path}${encodeURI(todo)}`}><Styled.Label>{todo}</Styled.Label></Styled.Link>
           </Styled.Element>
         ))}
         <div>
@@ -29,7 +29,7 @@ function ToDoList() {
           <button type="button" onClick={onClick}>Save todo</button>
         </div>
       </Styled.Container>
-      <Styled.BigLink to="/">Go to Home!</Styled.BigLink>
+      <Styled.BigLink href="/">Go to Home!</Styled.BigLink>
     </>
   )
 }
