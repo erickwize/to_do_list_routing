@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
   background-color: rgba(255,255,255,0.9);
@@ -24,7 +25,7 @@ const CheckBox = styled.input`
   margin-right: 10px;
 `
 
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
   text-decoration: none;
   color: black;
 `
