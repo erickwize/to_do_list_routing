@@ -10,6 +10,8 @@ There are some mistakes on the app on the React side, please help me to solve th
 * It is always reloading the page when clicking on any of the todos.
 * It is always reloading the page when clicking on **Go to Home!**.
 
+To see reflected your changes in the server, every time you change something you need to build your project (even the first time) `npm run build`
+
 Please also help me understand why does my React app was not working with the current configuration:
 <!-- Explain the answer here -->
 
