@@ -3,6 +3,7 @@
 Go to the `issues-1` branch.
 
 Install the dependencies `npm run install`
+Run `npm run build` to build the package for the backend guys
 This app would be rendered on a server with node running the command `npm run server-1`
 (The backend only knows how to serve the application on the path `/`)
 There are some mistakes on the app on the React side, please help me to solve those issues:
